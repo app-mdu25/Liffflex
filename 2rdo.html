@@ -46,14 +46,14 @@
   //เริ่มฟังชั่น
  
          function dolink(){
-            var 2rdo = getParameterByName("refer")
+            var rdo = getParameterByName("refer")
 
 //----เริ่ม Project -- shareTargetPicker---------   
 
 //----เริ่ม EX1 sendMessages---------
 //----- https://liff.line.me/2006590629-Pk9J634D?refer=pr01 ---                        
 
-         if(2rdo === "pr01"){
+         if(rdo === "pr01"){
              liff.sendMessages([
 {
   "type": "text",
@@ -71,7 +71,7 @@
 //----เริ่ม EX1 sharetargetpicker---------
 //----- https://liff.line.me/2006590629-Pk9J634D?refer=sharepr01 ---                        
 
-         if(2rdo === "sharepr01"){
+         if(rdo === "sharepr01"){
              liff.shareTargetPicker([
 //-----เริ่ม Flex-----------               
 {
